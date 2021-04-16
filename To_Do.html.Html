@@ -1,0 +1,35 @@
+<!doctype = HTML>
+<html>
+	<head>
+		<style type="text/css">
+			#Tlist{
+				color:red;
+			}
+			#TlistItem {
+				border-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+<script type="text/javascript">
+			document.getElementById('TAdd').onclick = function ()	{
+				var InputText = document.getElementById("TInput").value;
+
+				var Tlist = document.createElement("li");
+				li.innertext = InputText; 
+
+				document.getElementById("TlistMain").appendChild(li);
+			}
+</script>
+		<p id='Tlist'> To Do </p>
+			
+			<input type='text' id='TInput'/> 
+			
+			<input type='button' id='TAdd' value = 'ADD'/>
+		<ol id = 'TlistMain'>
+		<li>	
+		</li>
+		</ol>
+	</body>
+
+</html>
