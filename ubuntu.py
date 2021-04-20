@@ -1,6 +1,5 @@
 import importlib
-moduleName = input('Enter module name:')
-importlib.import_module(moduleName)
+importlib.import_module()
 
 x=15
 y=20
