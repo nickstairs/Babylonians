@@ -1,7 +1,6 @@
-import importlib
-moduleName = input('Enter module name:')
-importlib.import_module(moduleName)
-
+ham=input("enter var you want to print")
+def useri():
+	print(ham)
 x=15
 y=20
 z=x+y
